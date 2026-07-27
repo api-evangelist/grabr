@@ -1,9 +1,27 @@
 aid: grabr
 name: Grabr
-description: 'Grabr is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Grabr is a peer-to-peer cross-border shopping marketplace, founded in
+  2015 in San Francisco, that connects shoppers wanting products unavailable or expensive
+  in their home country with travelers who deliver those items during trips in exchange
+  for a reward. Grabr handles secure online payments, calculates duties and fees upfront,
+  and holds funds in escrow until delivery is confirmed, operating across 75+ countries.
+  It is a consumer mobile-app marketplace (iOS and Android) with a sibling fintech
+  product, GrabrFi (US banking for non-residents). Grabr does not publish a public
+  developer API, OpenAPI, or developer portal; this profile captures its identity,
+  support, legal, and domain-security surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/grabr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/grabr.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Marketplace
+- Cross-Border Commerce
+- Peer-to-Peer
+- Shopping
+- Delivery
+- Travel
+- Fintech
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://grabr.io/
+- type: GettingStarted
+  url: https://grabr.io/en/how-grabr-works
+- type: Support
+  url: https://help.grabr.io/hc/en-us
+- type: GitHubOrganization
+  url: https://github.com/grabr
+- type: TermsOfService
+  url: https://grabr.io/terms
+- type: PrivacyPolicy
+  url: https://grabr.io/privacy
+- type: iOSApp
+  url: https://apps.apple.com/us/app/grabr-global-shopping/id992182861
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=io.grabr
+- type: DomainSecurity
+  url: security/grabr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
