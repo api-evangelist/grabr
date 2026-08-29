@@ -10,6 +10,17 @@ description: 'Grabr is a peer-to-peer cross-border shopping marketplace, founded
   developer API, OpenAPI, or developer portal; this profile captures its identity,
   support, legal, and domain-security surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/grabr/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
